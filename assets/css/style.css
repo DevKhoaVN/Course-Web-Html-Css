@@ -262,3 +262,122 @@ a{
     line-height: 54px; /* 122.727% */
 
 }
+
+
+/* popular  */
+.popular
+{
+    background: #FFF;
+    margin-top: 200px;
+}
+.popular .popular-top
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+   
+}
+.popular-top .heading
+{
+    color: #171100;
+    font-family: Sen;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.popular-top .content
+{
+    width: 458px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 16px;
+}
+.popular-top .icon{
+    width: 98px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+.popular-bottom .box-img{
+
+
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+
+.popular-bottom .box 
+{
+    width: 370px;
+    height: 466px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+ .box-size
+{
+    margin: 16px 22px 22px ;
+}
+
+.box .main-label
+{
+    display: flex;
+}
+
+.box .label-content
+{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.box .label-content p{
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-left: 4px;
+}
+.box .label
+{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.box  .title
+{
+    width: 326px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    margin-top: 6px;
+}
+.box .box-detail
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
