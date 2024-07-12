@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+     font-size: 1.6rem;
+    font-family: "Poppins" , sans-serif;
+    height: 40000px;
+}
+
+/* ===============================commom=========================== */
+
+a{
+    text-decoration: none;
+}
+
+
+.btn{
+    text-align: center;
+    display: inline-block;
+    min-width: 118px;
+    padding: 0 16px;
+    line-height: 50px;
+    color: #FFF;
+    font-weight: 600;
+    width: 144px;
+    height: 49px;
+    border-radius: 24.5px;
+    background: #171100;
+    
+
+}
+
+.header
+{
+    background: #FFFCF4;
+}
+.main-container
+{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==========================header====================== */
+.header .body
+{
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+
+.header .nav{
+    margin-left: auto;
+}
+ .nav ul{
+    display: flex;
+}
+
+.nav a{
+    color: #5F5B53;
+    padding: 8px 21px;
+    position: relative;
+}
+
+.nav a.active,
+.nav a:hover {
+    color: #171100;
+    text-shadow: 1px 0 0 #171100;
+
+}
+.nav a.active::after
+{
+    position: absolute;
+    display: block;
+    content:"";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+    left: 20px;
+    bottom: 6px;
+  
+}
+
+
+.header .btn-sign-up
+{
+    min-width: 144px;
+}
+
+.header.fixed{
+    position:sticky;
+    top: -28px;
+}
+.header .action{
+    margin-left: 49px;
+}
+
+/* //// */
+.hero
+{
+    padding-top: 56px;
+    background: #FFFCF4;
+   
+}
+
+.hero .body{
+    display: flex;
+}
+
+.hero .media-block{
+    width: 48%;
+    position: relative;
+}
+
+.hero .content-block{
+    width: 52%;
+    margin-left: 130px;
+}
+
+.hero-summary
+{
+    padding: 24px;
+    position: absolute;
+    right: 0;;
+    bottom: 48px;
+    width: 270px;
+    height: 244px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  
+
+}
+
+.hero-summary .item
+{
+     display: flex;
+}
+
+
+.hero-summary .icon
+{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: #FFF9E8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 16px;
+}
+
+.hero-summary .label{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.hero-summary .title
+{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.content-block .heading
+{
+    width: 470px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 117.241% */
+    letter-spacing: -1.16px;
+}
+
+.content-block .desc{
+    width: 470px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 22px 0 38px;
+}
+
+.hero .cta-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.cta-group .icon{
+    width: 202px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.cta-group .icon img{
+   
+    border-radius: 50%;
+}
+
+.cta-group .icon span{
+    width: 148px;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    margin-left: 14px;
+}
+
+.btn.btn-see-course{
+    width: 180px;
+    height: 64px;
+   line-height: 64px;
+    border-radius: 32px;
+    background: #FFB900;
+}
+
+.cta-group .play-video
+{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-block strong{
+    color: #171100;
+    font-family: Sen;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 122.727% */
+
+}
